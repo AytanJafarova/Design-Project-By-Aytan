@@ -1,0 +1,844 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+.container
+{
+    width: 100%;
+}
+.containerHeader
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.7)),url("Images/3.jfif");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #555263;
+   width: 100%;
+   height: 70rem;
+   opacity: 90%;
+   position: absolute;
+   left: 0;
+}
+.headerListPart
+{
+    height: 10rem;
+    position: relative;
+    margin-bottom: -10rem;
+}
+#sloganText
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 7rem;
+    color: #fff;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+.moreButton
+{
+    display: none;
+    cursor: pointer;
+    color: white;
+}
+.moreButton:hover
+{
+    color: rgb(174, 90, 177);
+}
+
+
+.showList
+{
+    display:block
+}
+.listThen
+{
+    position: absolute;
+    margin-top: 4rem;
+    right: 2rem;
+    width: 15rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 7%;
+}
+.listHide
+{
+    cursor: pointer;
+}
+.listHide li
+{
+    width: 15rem;
+    list-style: none;
+    font-size: 1.6rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.listHide li a
+{
+    color: white;
+}
+.listHide li a:hover
+{
+    text-decoration: none;
+}
+
+
+.listHeader
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    color: #fff;
+    font-size: 2.4rem;
+    margin-top: 2.5rem;
+    right: 5rem;
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.listHeader li
+{
+    padding: 1rem;
+}
+.listHeader li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.listHeader li a:hover
+{
+   color: rgb(218, 91, 68);
+
+}
+.listThen li a:hover
+{
+    color: rgb(218, 91, 68);
+}
+.nameOf
+{
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nameOf:hover
+{
+    text-decoration: none;
+}
+#wPart
+{
+    color: #fff;
+}
+#pPart
+{
+    color: rgb(218, 102, 121);
+}
+.headerListPart
+{
+    display: flex;
+    flex-direction: row;
+}
+.slogansPart
+{
+    display: flex;
+    flex-direction: column;
+}
+.sloganImage
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem auto;
+    position: relative;
+    width: 50rem;
+}
+.slides
+{
+    display: none;
+}
+.transitionSlide
+{
+    transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1); /* Slide css animation */
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.containerXidmetler
+{
+    padding-top: 80rem;
+}
+.containerXidmetler>.firstPart,.containerXidmetler>.secondPart,.containerXidmetler>.thirdPart
+{
+    transition: transform 0.5s ease-in;
+}
+.containerXidmetler>.firstPart:hover,.containerXidmetler>.secondPart:hover,.containerXidmetler>.thirdPart:hover
+{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.containerPort>.card
+{
+    transition: transform 0.5s ease-in;
+}
+.containerPort>.card:hover
+{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); 
+}
+#textXidmet
+{
+    font-size: 7rem;
+    position: relative;
+    margin:6rem auto;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(57, 18, 148);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.picCircle{
+    border-radius: 50%; max-width: 40%; height: auto;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.textPart{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.containerXidmetler>.firstPart
+{
+    width: 100%;
+    position: relative;
+    margin-top: 10rem;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.containerXidmetler>.secondPart
+{
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.containerXidmetler>.thirdPart
+{
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.containerXidmetler>.firstPart>.imagePart{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+
+}
+.containerXidmetler>.firstPart>.textPart{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 50%;
+    margin-top: -27rem;
+}
+.xidmetlerHTags
+{
+    font-size: 6rem ;
+    font-weight: 400;
+    width: 90%;
+    color: rgb(72, 72, 180);
+}
+.xidmetlerPTags
+{
+    font-size: 2.5rem ;
+    font-weight: 300;
+    width: 85%;
+}
+.containerXidmetler>.secondPart>.imagePart{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: relative;
+    margin-top: 15rem;
+  
+}
+.containerXidmetler>.secondPart>.textPart{
+    display: flex;
+    flex-direction: column;
+   align-items:flex-end;
+   width: 50%;
+   position: relative;
+   right: -40rem;
+   margin-top: -27%;
+}
+
+.containerXidmetler>.thirdPart{
+    position: relative;
+    margin-top: 15%;
+}
+.containerXidmetler>.thirdPart>.imagePart{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-content:center;   
+}
+.containerXidmetler>.thirdPart>.textPart{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+   position: relative;
+   width: 50%;
+   margin-top: -25%;
+}
+
+.containerPortfolio
+{
+    position: relative;
+    margin-top: 20rem;
+}
+.containerPort
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#textPortfolio
+{
+    font-size: 7rem;
+    position: relative;
+    margin:6rem auto;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(45, 48, 206);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card
+{
+    position: relative;
+    margin: 2rem;
+    width: 32rem;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+    border: none;
+}
+.card img
+{
+    border: none;
+}
+.card-title
+{
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(21, 113, 141);
+    font-weight: bold;
+    position: relative;
+    padding: 2rem;
+}
+.card-text
+{
+    font-size: 2rem;
+    color: black;
+    text-align: justify;
+}
+.btn
+{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgb(73, 141, 161);
+    border-color: rgb(73, 141, 161);
+}
+.btnGoHead
+{
+    font-size: 3rem;
+    position: relative;
+    color:rgb(45, 48, 206);
+    border-width: 2px;
+    border-radius: 30%;
+    border-color: rgb(117, 122, 201);
+    border-style: solid ;
+    padding: 1rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+.Bashlig
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#haqqimizdaBashlig
+{
+    position: relative;
+    margin-top: 15rem;
+}
+.containerHaqqimizda
+{
+    position: relative;
+    margin-bottom: 20rem;
+}
+#textHaqqimizda
+{
+    font-size: 7rem;
+    position: relative;
+    margin-top: 15rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(45, 48, 206);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.picHaqqimizda
+{
+    width: 70%;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.textHaqqimizda
+{
+    width: 80%;
+    text-align:justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin:2rem auto;
+    
+}
+#textElaqe
+{
+    font-size: 7rem;
+    position: relative;
+    margin:6rem auto;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(45, 48, 206);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.textHead:hover
+{
+    cursor: pointer;
+}
+.textHead h2
+{
+    font-size: 3rem;
+    color: rgb(24, 93, 95);
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.listElaqe ul 
+{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+}
+.listElaqe ul li
+{
+    position: relative;
+    padding: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    transition: transform 0.5s ease-in;
+}
+.listElaqe ul li:hover
+{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+
+}
+.listElaqe ul li a
+{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    position: relative;
+    text-align: center;
+}
+#instaText
+{
+    color: purple;
+}
+#faceText
+{
+    color: blue;
+}
+#whatText
+{
+    color: green;
+    position: relative;
+
+}
+.listElaqe ul li img
+{
+    max-width: 15rem;
+    height: 15rem;
+    position: relative;
+    border-radius: 80%;
+}
+.formContainer
+{
+    width: 60%;
+    border-radius: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F9AB00;
+    padding: 2rem;
+    position: relative;
+    margin: 2rem auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.formContainer:hover
+{
+    border-color: #F9AB00;
+    transition: 0.1s ease-out;
+    -moz-box-shadow: 1px 2px 3px #F9AB00;
+    -webkit-box-shadow: 1px 2px 3px #F9AB00;
+    box-shadow: 1px 2px 3px #F9AB00;
+}
+.infoContainer:hover
+{
+    border-color: #F9AB00;
+    width: 42%;
+    transition: 0.1s ease-out;
+    -moz-box-shadow: 1px 2px 3px #F9AB00;
+    -webkit-box-shadow: 1px 2px 3px #F9AB00;
+    box-shadow: 1px 2px 3px #F9AB00;
+}
+.form__input
+{
+    background-color: #fff;
+    color: black;
+    border-style: solid;
+    border-color: #9997a1;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 2px;
+}
+.form__textarea
+{
+    background-color: #fff;
+    color: black;
+    border-style: solid;
+    border-color: #9997a1;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 2px;
+    height: 10rem;
+}
+.form__btn
+{
+    background-color: #e69d02;
+    color: white;
+    border-style: solid;
+    border-color: #e69d02;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 2px;
+}
+.form__btn:hover
+{
+    background-color: #c29c49;
+    border-color: #c29c49;
+}
+.fillParts
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0.2rem auto;
+}
+.fillParts div
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#formShort
+{
+   display: none;
+}
+
+.FooterPart{
+    background-color: #1A191F;
+    position: absolute;
+    left: 0;
+    margin-bottom: 0;
+    height: 5rem;
+    width: 100%;
+    border-color:#33313b;
+    border-width: 2px;
+    border-top: solid;
+}
+.FooterPart>.footPart
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.FooterPart h3
+{
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+#yelName
+{
+    color: #F9AB00;
+}
+
+.fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+
+}
+@media screen and (max-width:992px)
+{
+    .xidmetlerHTags
+    {
+        font-size: 4rem;
+    }
+    .xidmetlerPTags
+    {
+        font-size: 2rem;
+    }
+    .containerXidmetler>.secondPart>.textPart{
+        right: -27rem;
+    }
+}
+@media screen and (max-width:850px)
+{
+    .moreButton
+    {
+        display: flex;
+        flex-direction: row;
+        font-size: 2rem;
+        padding: 1rem;
+        position: absolute;
+        right: 1rem;
+        top: 1.5rem;
+
+    }
+    .listHeader
+    {
+        display: none;
+    }
+    .listThen
+    {
+        display: none;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .containerXidmetler>.firstPart,.containerXidmetler>.secondPart,.containerXidmetler>.thirdPart
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerXidmetler>.thirdPart
+    {
+        position: relative;
+        top: -2rem;
+    }
+    .picCircle{
+        border-radius: 50%; 
+        height: 40rem;
+        max-width: 40rem;
+    }
+    .containerXidmetler>.firstPart>.imagePart{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        position: relative;
+        margin-top: 40px;
+    }
+    .containerXidmetler>.firstPart>.textPart{
+        display: flex;
+        flex-direction: column;
+      justify-content: center;
+       position: relative;
+       margin-top: 10%;
+       margin-left: 10%;
+       width: 100%;
+    } 
+    .xidmetlerPTags{
+        font-size: 1.5rem ;
+        font-weight: 300;
+    }   
+    .containerXidmetler>.secondPart>.imagePart{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        position: relative;
+        margin-top:10%;
+      
+    }
+    .containerXidmetler>.secondPart>.textPart{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-content: center;
+       width: 100%;
+       position: relative;
+       margin-top: 10%;
+       left: -2rem;
+    }
+    .xidmetlerHTags{
+        font-size: 5rem ;
+        font-weight: 100;
+    }
+    .containerXidmetler>.thirdPart>.imagePart{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        position: relative;
+        
+    }
+    .containerXidmetler>.thirdPart>.textPart{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-content: center;
+       position: relative;
+       width: 100%;
+       margin-top: 100px;
+       margin-left: 10%;
+    }
+}
+@media screen and (max-width:710px)
+{
+    #sloganText
+    {
+        font-size: 4rem;
+    }
+    .sloganImage
+    {
+        width: 30rem;
+    }
+}
+@media screen and (max-width:710px)
+{
+    .containerXidmetler>.firstPart,.containerXidmetler>.secondPart,.containerXidmetler>.thirdPart
+    {
+        width: 90%;
+    }
+}
+@media screen and (min-width:851px)
+{
+    #listHidden
+    {
+      display: none;
+    }
+}
+
+@media screen and (max-width:510px)
+{
+   #textXidmet
+   {
+       font-size: 5.5rem;
+   }
+   #xidmetlerimiz>.Bashlig>.btnGoHead
+   {
+    font-size: 8rem;
+   }
+}
